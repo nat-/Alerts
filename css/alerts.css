@@ -1,0 +1,25 @@
+	#alertsContainer{
+		list-style: none;
+		position: fixed;
+		top: 20px;
+		right: 50px;	
+		width: 200px;
+	}
+	#alertsContainer .alert{
+		padding: 5px;
+		margin: 5px auto;
+		display: block;
+		border-radius: 10px;
+	}
+
+	#alertsContainer .success{
+		background-color: lightgreen;
+	}
+
+	#alertsContainer .warning{
+		background-color: orange;
+	}
+
+	#alertsContainer .error{
+		background-color: red;
+	}
